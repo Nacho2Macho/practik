@@ -1,0 +1,15 @@
+.invalid-input {
+  border: 2px solid var(--colorError);
+}
+
+.invalid-text {
+  color: var(--colorError);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 4px 0 0 390px;
+}
+
+.valid-input {
+  border: 2px solid var(--colorBackButton);
+}

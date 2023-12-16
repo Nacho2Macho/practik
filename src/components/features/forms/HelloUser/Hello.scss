@@ -1,0 +1,16 @@
+//.hello
+.hello {
+    color: var(--colorGray);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+    //.hello__user
+    &__user {
+        color: #000;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

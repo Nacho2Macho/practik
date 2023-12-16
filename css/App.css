@@ -1,0 +1,52 @@
+:root {
+  --font-family: "Arial", sans-serif;
+  --colorGray: #666;
+  --colorInput: #7E7E7E;
+  --colorWarning: #F52020;
+  --colorBackButton: #71C838;
+  --colorShadowButton: #539D22;
+  --colorTextPrompt: #999;
+  --colorBorder: #E5E4E4;
+  --colorError: #F00;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 1169px;
+}
+@media (min-width: 320px) {
+  .wrapper {
+    padding: 20px;
+  }
+}
+@media (min-width: 425px) {
+  .wrapper {
+    padding: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    padding: 90px 100px 125px 100px;
+  }
+}
+
+.block-padding {
+  border-bottom: 1px solid var(--colorBorder);
+}
+@media (min-width: 320px) {
+  .block-padding {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .block-padding {
+    padding: 40px 0;
+  }
+}

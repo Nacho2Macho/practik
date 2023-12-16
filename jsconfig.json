@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "paths": {
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@utility/Validation/*": [
+                "./src/utility/Validation/*"
+            ],
+            "@utility/handleFields/*": [
+                "./src/utility/handleFields/*"
+            ],
+            "@components/InputField/*": [
+                "./src/components/InputField/*"
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.star {
+  color: var(--colorWarning);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 19px;
+}

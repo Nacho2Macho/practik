@@ -1,0 +1,71 @@
+//.inner
+.inner {
+    position: relative;
+}
+
+//.selected-city 
+.selected-city {
+    color: var(--colorInput);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border: 1px solid var(--colorInput);
+    padding: 5px 10px;
+    position: relative;
+    cursor: pointer;
+
+    @media (min-width:320px) {
+        font-size: 14px;
+    }
+
+    @media(min-width:1024px) {
+        font-size: 16px;
+    }
+
+    &.open {
+        margin-bottom: 30px;
+    }
+}
+
+//.options
+.options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-height: 0;
+    border-radius: 10px;
+}
+
+//.option
+.option {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #f2f2f2;
+    }
+
+    &.selected {
+        font-weight: bold;
+    }
+
+    color: var(--colorInput);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 5px 5px 5px 12px;
+}
+
+//.arrow 
+.arrow {
+    position: absolute;
+    right: 5px;
+    transition: transform 0.3s ease;
+
+    &.open {
+        transform: rotate(180deg);
+    }
+}
